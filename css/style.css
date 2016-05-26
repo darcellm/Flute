@@ -1,0 +1,302 @@
+@font-face {
+	font-family: 'Intro';
+	src: url('../fonts/Intro.eot');
+	src: url('../fonts/Intro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Intro.woff') format('woff'),
+		url('../fonts/Intro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body{
+  color: #fff;
+}
+.navbar{
+    background-color: #db1f2c;
+    padding-right: 5%;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+nav>li>a>p{
+    color: #fff;
+}
+a, a:hover{
+   list-style: none;
+    text-decoration: none;
+}
+a, a:link{
+    color:#fff;
+}
+a:hover{
+    color: #fff;
+}
+
+
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+                                                /*    General Styles    */
+.container{
+    width:90%;
+}
+
+h1{
+   font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    padding-top: .4em;
+    padding-bottom: 1em;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+.borderBottomGrey{
+    border-bottom: thin solid #464646;
+}
+.padding-top{
+   padding-top: 5em;
+}
+.padding-top10em{
+    padding-top: 10em;
+}
+.padding-bottom{
+    padding-bottom:5em;
+}
+.padding-bottom10em{
+    padding-bottom: 10em;
+}
+.padding-bottom2em{
+    padding-bottom: 2em;
+}
+
+
+                                                /*    Hero Section      */
+.homeButton {
+ background-color: #bb1c23;
+    background-image: url(../images/buttonLines.png);
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
+    text-align: center;
+
+    border: thin solid #ca676d;
+    border-radius:5px; // i use percentage  u can use pix.
+
+
+}
+
+.homeButton, a {
+  color: #f6c0c4;
+  -webkit-transition: color .5s linear;
+  -moz-transition: color .5s linear;
+  -ms-transition: color .5s linear;
+  -o-transition: color .5s linear;
+  transition: color .5s linear;
+}
+
+.homeButton, a:hover { color: #fff; }
+.heroSection{
+    background-color: #db1f2c;
+    color:#f6c0c4;
+    width:100%;
+    height:1300px;
+
+}
+.heroSectionImage{
+    position:relative;
+    z-index: 1;
+}
+.heroSection h1{
+    letter-spacing: 42px;
+    border-bottom: thin solid #f3bec1;
+    padding: 0 0 25px 0;
+}
+.heroSection h2{
+   font-size: 1.6em;
+     border-bottom: thin solid #f3bec1;
+      padding: 5px 0 25px 0;
+}
+.heroSection p{
+padding: 5px 0 25px 0;
+}
+.heroText{
+position: absolute;
+z-index: 2;
+left: 26%;
+bottom: -13%;
+}
+                                                /*    servicesSection   */
+.servicesSection{
+    background-image: url(../images/spaceBG.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+    position:relative;
+    height: 1100px;
+    width: auto;
+}
+                                                /*    sales   */
+.sales{
+
+}
+.sales p{
+     color: #454545;
+}
+
+
+                                                /*    polygons  */
+.polygons{
+position: absolute;
+    bottom: 10%;
+}
+
+                                                /*  weAre   */
+
+.weAreBox{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+.weAreBoxText{
+    position:absolute;
+    top: -28em;
+    left: 35em;
+}
+
+
+                                             /*  Contact Form   */
+
+
+
+
+
+                                            /*  Footer   */
+footer.footerClass{
+    background-color: #454545;
+}
+
+                                            /*    Media Queries      */
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+
+    .heroSection {
+
+    width: 100%;
+    height: 900px;
+    padding: 0 0 0 5%;
+}
+    .heroText{
+bottom:0;
+        top:22.4%;
+}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+
+
+.square{
+
+    padding-left: 3em;
+}
+
+
